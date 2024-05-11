@@ -72,7 +72,7 @@ function Product() {
                 </div>
               )}
               <p><b>{product.product_name}</b></p>
-              <p><b>Price:</b> ₱{product.product_price}</p>
+              <p><b>Price:</b> ${product.product_price}</p>
             </div>
           </Link>
         ))}
